@@ -14,7 +14,7 @@ The code is written in Python and is meant to run on a
 
 
 
-The [`main`](main.py) module defines a callback where incoming news articles  are
+The [`scanner`] function defines a callback where incoming news articles  are
 handled and starts scanning for news articles
 ```python
 
