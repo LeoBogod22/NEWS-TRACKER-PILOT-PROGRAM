@@ -39,6 +39,8 @@ def scanner(resp_data):
 Follow these steps to run the code yourself: 
  
 
+
+
 ```bash
 pip  install -r requirements.txt
 ```
