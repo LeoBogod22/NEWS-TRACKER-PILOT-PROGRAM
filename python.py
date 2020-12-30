@@ -73,7 +73,7 @@ def scanner(resp_data):
 def main():
     while True:
         data_str = ",".join(data)
-        url =  f"https://stocknewsapi.com/api/v1?tickers={data_str}&items=5&date=today&token=81kbbtaqvj2fuk1h9cq1uxhdyel6w5vzgcjtvig7"
+        url =  f"https://stocknewsapi.com/api/v1?tickers={data_str}&items=5&date=today&token=myapikey"
         response = requests.get(url)
         if len(response.json()['data'])== 0:
             print("no data")
