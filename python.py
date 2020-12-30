@@ -14,8 +14,8 @@ import time
 data = ["AAPL","SQ","PLTR","MSFT","Z","QQQ","SPY","ARKK","TSLA","GME","BABA"]
 data_arr = [];
 
-account = "AC2d0b627ca95af759b041f4f22964ef96"
-token = "df11d630b6d2a22400901cbd18d34f26"
+account = "accountid"
+token = "tokenid"
 client = Client(account, token)
 
 class scanarr:
