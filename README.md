@@ -1,4 +1,4 @@
-# NEWS-TRACKER-PILOT-PROGRAM
+# stock news scanner
 
 
 This bot monitors and scans news for certain stocks every 60 seconds. Upon receiving a new article the bot sends an SMS to the user with the title , date and text of the article. 
